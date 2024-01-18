@@ -5,6 +5,6 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 
 interface PokedexApiService {
-    @GET("pokemons")
+    @GET("pokemons.json")
     suspend fun getAllPokemons(): List<Pokemon>
 }

@@ -11,7 +11,7 @@ interface AppContainer {
 }
 
 class DefaultAppContainer : AppContainer{
-    private val baseUrl = "http://192.168.3.51:5000"
+    private val baseUrl = "https://raw.githubusercontent.com/LucasBil/Android_Pokedex/master/data/" //"http://192.168.3.51:5000"
 
     private val json = Json {
         ignoreUnknownKeys = true
